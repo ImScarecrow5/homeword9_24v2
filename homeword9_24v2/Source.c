@@ -5,19 +5,19 @@
 
 void main()
 {
-	// Равнобедренная трапеция. Задается высота и верхнее основание
+	// Isosceles trapezoid. The height and upper base are set
 	setlocale(LC_ALL, "RUS");
 
 	int topb, h;
 	char symb;
 
-	puts("Введите символ, из которого будет строиться фигура:");
+	puts("Enter the symbol from which the shape will be builtГ :");
 	scanf("%c", &symb);
 
-	puts("Введите верхнее основание:");
+	puts("Enter the upper base of the trapezoid:");
 	scanf("%d", &topb);
 
-	puts("Введите Высоту:");
+	puts("Enter the Height:");
 	scanf("%d", &h);
 
 	int empt = topb;
